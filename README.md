@@ -4,10 +4,7 @@ Federal University of São Carlos - UFSCar Sorocaba.
 
 Developed by:
 
-Daniel Miola
-
-Hitalo Siqueira
-
-Igor Ceridório
-
-Rafael Giordano
+- Daniel Miola
+- Hitalo Siqueira
+- Igor Ceridório
+- Rafael Giordano
