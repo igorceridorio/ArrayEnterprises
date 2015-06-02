@@ -1,0 +1,12 @@
+Integrantes:
+	Daniel Ramos Miola 		- 438340
+	Igor Felipe Ferreira Ceridório 	- 408611
+	Hitalo Siqueira			- 408476
+	Rafael Paschoal Giordano	- 408298
+
+Instruções para executar o projeto:
+	- Criar o banco no PostgreSQL com o nome ERPArrayEnterprises
+	- Executar os arquivos de criação e população do banco que estão na pasta "Documentos" dentro do projeto.
+	- Adequar a senha ou qualquer outro parâmetro necessário na classe ConnectionFactory.java dentro do pacote persistence.
+	- Ao rodar, o usuário e senha para login são respectivamente jabuti, 123456.
+

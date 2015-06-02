@@ -1,0 +1,45 @@
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="ServletMain?tipo=carrega">ERP Jabuti</a>
+    </div>
+    <!-- /.navbar-header -->
+
+    <ul class="nav navbar-top-links navbar-right">
+        <li class="dropdown">
+            <form method="post" action="ValidaLogin" id="formlogout" style="margin-top: 15px;">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:{}" onclick="document.getElementById('formlogout').submit();
+                        return false;">
+                    <i class="fa fa-user fa-fw"></i><b><%= login.getLogin()%></b><i class="fa fa-sign-out fa-fw"></i>
+                </a>
+                <input type="hidden" name="tipo" value="logout">
+            </form>       
+            <!-- /.dropdown-user -->
+        </li>
+    </ul>
+
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li>
+                    <a class="active" href="#" id="BotaoEfetuadas"><i class="fa fa-table fa-fw"></i> Vendas Efetuadas</a>
+                </li>
+                <li>
+                    <a href="#" id="BotaoNovo"><i class="fa fa-tasks fa-fw"></i> Venda Automática</a>
+                </li>
+                <li>
+                    <a href="#" id="BotaoNovoM"><i class="fa fa-edit fa-fw"></i> Venda Manual</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+    </div>
+    <!-- /.navbar-static-side -->
+</nav>
+
